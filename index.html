@@ -1,50 +1,395 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <style>
+        .techno {
+            height: 150px;
+        }
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+        .large {
+            width: 550px;
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Wanna Be a Developer</h1>
+            <p>Here is what you need to know</p>
+        </section>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <section>
+            <img src="img/me.jpg" alt="">
+            <h4>Ilyes Hammadi</h4>
+            <p>Junior Full Stack Developer and CS student</p>
+        </section>
+
+        <section class="fragmented">
+            <h2>Difference between developer, programer and a computer scientist</h2>
+        </section>
+
+        <section class="fragmented">
+            <h3>Computer Scientist</h3>
+            <p class="fragment">
+                They write code. It may not be the prettiest or most
+                well-factored code, but it gets the job done. It is not about the design of the code or "good"
+                practices
+            </p>
+        </section>
+        <section>
+            <img class="large" src="img/cs.jpg" alt="">
+        </section>
+
+        <section class="fragmented">
+            <h3>Programmer</h3>
+            <p class="fragment">
+                Programmers write awesome code. Making it clean, well-factored and error free are very important
+                concerns, but not at the expense of getting the job done.
+            </p>
+        </section>
+        <section>
+            <img class="large" src="img/programmer.jpg" alt="">
+        </section>
+
+            <section class="fragmented">
+                <h3>Developer</h3>
+                <p class="fragment">
+                    A software developer is a person concerned with facets of the software development process,
+                    including
+                    the research, design, programming, and testing of computer software.
+                </p>
+            </section>
+            <section>
+                <img class="large" src="img/developer.jpg" alt="">
+            </section>
+
+        <section data-background="img/developers.jpeg">
+            <h1>Developer Jobs</h1>
+        </section>
+
+        <section>
+            <section data-background="img/front-end-dev-1.jpg">
+                <h1>
+                    Front-end Developer
+                </h1>
+            </section>
+            <section>
+                <p>Front end development is the development of those elements of a website that the customer sees and
+                    interacts with directly. It is a combination of programming skills and aesthetics.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/html.png" class="fragment">
+                <img src="img/css.png" alt="" class="fragment">
+                <img src="img/javascript.png" alt="" class="fragment">
+                <img src="img/jquery.png" alt="" class="fragment">
+                <img src="img/react.png" alt="" class="fragment">
+                <img src="img/angular-js.png" alt="" class="fragment">
+                <img src="img/vuejs.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/fcc.jpeg" alt="" class="fragment">
+                <img src="img/udacity.png" alt="" class="fragment">
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+                <img src="img/udemy.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/front-end-salary.png">
+                <h3 class="fragment">$66K TO $104K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background="img/back-end.gif">
+                <h1>
+                    Back-end Developer
+                </h1>
+            </section>
+            <section>
+                <p>The back end of a website consists of a server, an application, and a database. A back-end developer
+                    builds and maintains the technology that powers those components.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/python.png" class="fragment">
+                <img src="img/ruby.png" alt="" class="fragment">
+                <img src="img/django.png" alt="" class="fragment">
+                <img src="img/rails.png" alt="" class="fragment">
+                <img src="img/node.png" alt="" class="fragment">
+                <img src="img/restful-api-logo.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/fcc.jpeg" alt="" class="fragment">
+                <img src="img/udacity.png" alt="" class="fragment">
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+                <img src="img/udemy.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/back-end-salary.png" alt="">
+                <h3 class="fragment">$66K TO $108K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background="img/full-stack.gif">
+                <h1>
+                    Full Stack Developer
+                </h1>
+            </section>
+            <section>
+                <p>There’s often not a black-and-white distinction between front-end and back-end development.
+                    Front-end developers often need to learn those additional back-end skills, and vice versa.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/html.png" class="fragment">
+                <img src="img/css.png" alt="" class="fragment">
+                <img src="img/javascript.png" alt="" class="fragment">
+                <img src="img/jquery.png" alt="" class="fragment">
+                <img src="img/react.png" alt="" class="fragment">
+                <img src="img/angular-js.png" alt="" class="fragment">
+                <img src="img/vuejs.png" alt="" class="fragment">
+                <img src="img/python.png" class="fragment">
+                <img src="img/ruby.png" alt="" class="fragment">
+                <img src="img/django.png" alt="" class="fragment">
+                <img src="img/rails.png" alt="" class="fragment">
+                <img src="img/node.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/fcc.jpeg" alt="" class="fragment">
+                <img src="img/udacity.png" alt="" class="fragment">
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+                <img src="img/udemy.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/full-stack-salary.png" alt="">
+                <h3 class="fragment">$63K TO $105K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background-iframe="https://www.youtube.com/embed/Vx5LcHhU4Vw??autoplay=1&rel=0&amp;&controls=0&showinfo=0&autohide=1" >
+                <h1>
+                    Machine Learning Engineer
+                </h1>
+            </section>
+            <section>
+                <p>Field of study that gives computers the ability to learn without being explicitly programmed</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/python.png" class="fragment">
+                <img src="img/Rlogo.png" alt="" class="fragment">
+                <img src="img/c++.png" alt="" class="fragment">
+                <img src="img/scikit-learn.png" alt="" class="fragment">
+                <img src="img/tensorflow.jpg" alt="" class="fragment">
+                <img src="img/math.jpeg" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/udacity.png" alt="" class="fragment">
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/machine-learning-salary.png" alt="">
+                <h3 class="fragment">$87K TO $151K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background-iframe="https://www.youtube.com/embed/f9z-eKD2xjk?autoplay=1&rel=0&amp;&controls=0&showinfo=0&autohide=1" >
+                <h1>
+                    Self-Driving Car Engineer
+                </h1>
+            </section>
+            <section>
+                <p>An autonomous car <em>(driverless car, self-driving car, robotic car)</em> is a vehicle that is
+                    capable of sensing its environment and navigating without human input.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/python.png" class="fragment">
+                <img src="img/scikit-learn.png" alt="" class="fragment">
+                <img src="img/Rlogo.png" alt="" class="fragment">
+                <img src="img/tensorflow.jpg" alt="" class="fragment">
+                <img src="img/math.jpeg" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/udacity.png" alt="" class="fragment">
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/self-driving-salary.png">
+                <h3 class="fragment">$101K TO $178K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background-iframe="https://www.youtube.com/embed/Ut3Hvbvs1bs?autoplay=1&rel=0&amp;&controls=0&showinfo=0&autohide=1&volume=0">
+                <h1>
+                    Android Developer
+                </h1>
+            </section>
+            <section>
+                <p>Android software development is the process by which new applications are created for the Android
+                    operating system.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/java.png" class="fragment">
+                <img src="img/android-sdk.jpg" alt="" class="fragment">
+                <img src="img/xml-logo.png" alt="" class="fragment">
+                <img src="img/gradle-logo.png" alt="" class="fragment">
+                <img src="img/material-logo.png" alt="" class="fragment">
+                <img src="img/restful-api-logo.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/udacity.png" alt="" class="fragment">
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+                <img src="img/udemy.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/android-salary.png">
+                <h3 class="fragment">$66K TO $117K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background="img/game-dev.jpg">
+                <h1>
+                    Game Developer
+                </h1>
+            </section>
+            <section>
+                <p>A video game developer is a software developer that specializes in video game development – the
+                    process and related disciplines of creating video games.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/c++.png" class="fragment">
+                <img src="img/c%23.png" alt="" class="fragment">
+                <img src="img/javascript.png" alt="" class="fragment">
+                <img src="img/unity-logo.png" alt="" class="fragment">
+                <img src="img/CryEngine.png" alt="" class="fragment">
+                <img src="img/Unreal_Engine_logo.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/Coursera_logo.png" alt="" class="fragment">
+                <img src="img/udemy.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/game-salary.png">
+                <h3 class="fragment">$65K TO $104K</h3>
+            </section>
+        </section>
+
+        <section>
+            <section data-background-iframe="https://www.youtube.com/embed/6PKzy0LvqTU??autoplay=1&rel=0&amp;&controls=0&showinfo=0&autohide=1">
+                <h1>
+                    VR Developer
+                </h1>
+            </section>
+            <section>
+                <p>Virtual reality typically refers to computer technologies that use software to
+                    generate realistic images, sounds and other sensations that replicate a real environment.</p>
+            </section>
+            <section class="fragmented techno">
+                <h3>Technologies used</h3>
+                <img src="img/c++.png" class="fragment">
+                <img src="img/c%23.png" alt="" class="fragment">
+                <img src="img/javascript.png" alt="" class="fragment">
+                <img src="img/unity-logo.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented techno">
+                <h3>Wanna learn</h3>
+                <img src="img/udacity.png" alt="" class="fragment">
+            </section>
+            <section class="fragmented">
+                <h3>Salary</h3>
+                <img src="img/AR : VR salary.png">
+                <h3 class="fragment">$72K TO $130K</h3>
+            </section>
+        </section>
+
+        <section class="fragmented">
+            <h2>Other Jobs</h2>
+            <ul>
+                <li class="fragment">DevOps</li>
+                <li class="fragment">IOS Developer</li>
+                <li class="fragment">Data Analyst</li>
+                <li class="fragment">IOT Developer</li>
+                <li class="fragment">Database Administrator</li>
+            </ul>
+        </section>
+
+        <section data-background-transition="zoom">
+
+            <section data-background="#b5533c">
+                <h1>Hope you will find your path</h1>
+            </section>
+
+            <section data-background="#4d7e65">
+                <h1>{ Thank you }</h1>
+            </section>
+
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
